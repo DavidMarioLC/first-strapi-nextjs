@@ -7,6 +7,7 @@ const query = gql`
       title
       slug
       cover {
+        formats
         url
       }
     }
